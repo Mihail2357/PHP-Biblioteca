@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #485BF0;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #485BF0;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    min-width: 80px;
+    margin: auto;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #485BF0;
+}
+.menu ul li a:hover{
+    color: #485BF0;
+    
+}
+.menu li:hover {
+    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
+  }
+  .menu li:active {
+    transform: translateY(4px);
+  }
+
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* CSS for Footer */
+.footer{
+    background-color: green;
+    color: white;
+}
+
+
+/* CSS for Login */
+
+
+.login h1, .signup h1 {
+	text-align: center;
+	font-size: 45px;
+	font-family: Lato;
+	margin-bottom: 25px;
+	text-decoration: underline;
+}
+
+.login, .signup{
+    border: 1px 
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+.login form, .signup form{
+    text-align: center;
+}
+
+.login form input, .signup form input{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+    text-indent: 5px ;
+    padding: 2.5px;
+}
+
+
+.login form input:last-Child, .signup form input:last-Child{
+    background-color: blue;
+    border: none;
+    width: 310px;
+    height: 40px;
+    font-size:20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.32s;
+}
+
+
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid blue;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:blue;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button1:hover{
+    color:#000000;
+    background-color:blue;
+}
+@media all and (max-width:30em){
+    a.button1{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+.wrapper-button1 {
+    text-align: center;
+}
